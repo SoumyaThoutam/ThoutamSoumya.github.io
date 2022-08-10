@@ -2,7 +2,7 @@
 
 ## Introduction
 
-<p>This website I have built is my personal website which highlights about me and my professional background. </p>
+<p>This is my personal website which highlights about me and my professional background. </p>
 
 This is a single page website, which has different sections namely ```About Me```, ```Work```, ```Projects```, ```Contact```, ```Resume```.
 
