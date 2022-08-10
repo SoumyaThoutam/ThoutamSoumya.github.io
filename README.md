@@ -1,2 +1,20 @@
-The website that I have built is my personal website which highlights about me and my professional background. This website contains the sections which includes about, my previous work, skills, education, projects, and contact details. I have used HTML, CSS, and JavaScript to build this website. I have also used the CSS Framework Bootstrap. 
-To run this page download and run the index.html file in the browser.
+# Personal Portfolio Website
+
+## Introduction
+
+<p>This website I have built is my personal website which highlights about me and my professional background. </p>
+
+This is a single page website, which has different sections namely ```About Me```, ```Work```, ```Projects```, ```Contact```, ```Resume```.
+
+<p>This website is designed using HTML, CSS, JavaScript, and Bootstrap</p>
+
+<p>You can find it live at - https://soumyathoutam.github.io//</p>
+
+## Run the Code
+
+Run the ```index.html``` file in any browser by downloading the zip folder of this code repository to your local machine and unzip the folder.
+
+## Sources 
+
+
+
