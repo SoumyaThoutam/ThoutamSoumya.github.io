@@ -1,12 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width="device-width", initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    "hello world"
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soumya Thoutam Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+<!--NavBar start-->
+      <nav class="navbar navbar-expand-lg navbar-light py-4">
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle movement"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav align-items-center">
+            <li class="navigation-item">
+              <a class="nav-link shake" href="#aboutsection"
+                ><button type="button" class="btn btn-primary">About <span class="bi bi-person-workspace"></span></button></a>
+            </li>
+            <li class="navigation-item">
+              <a class="nav-link shake" href="#previouswork-section" 
+                ><button type="button" class="btn btn-primary">Work <span class="bi bi-briefcase-fill"></span></button></a>
+            </li>
+            <li class="navigation-item">
+              <a class="nav-link shake" href="#project-section" 
+                ><button type="button" class="btn btn-primary">Projects <span class="bi bi-grid-3x3-gap"></span></button></a>
+            </li>
+            <li class="navigation-item">
+              <a
+                href="./resume/SoumyaThoutam.pdf"
+                target="_blank"
+                class="nav-link shake"
+                title="Preview Resume"
+                ><button type="button" class="btn btn-primary">Resume <span class="bi bi-file-earmark-pdf"></span></button></a>
+            </li>
+            <li class="navigation-item">
+              <a class="nav-link shake" href="#sectioncontact-form" 
+                ><button type="button" class="btn btn-primary">Contact <span class="bi bi-send"></span></button></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+<!--NavBar End-->
+<!--About start--> 
+      <main class="row mt-3">
+        <h2 class="mb-4 sectionmenubar" role="heading"><u>Soumya Thoutam</u></h2>
+        <div class="aboutme col-14 col-md-4 ">
+          <img
+            class="img-fluid soumyaimage"
+            src="./images/me.jpeg"
+            alt="Avatar" 
+            style="width:288px"
+            style="height:auto"
+          />
+        </div>
+        <div class="aboutsection col-12 col-md-7 p-3">
+          <p id="aboutsection">
+            Hi, my name is <strong>Soumya Thoutam.</strong> I am pursuing my Masters in Computer Science at
+            Portland State University.
+          </p>
+          <p>I have experience of 1 year at MNC company in India. I have also participated in Hackathon and coding challenges. 
+            Developed projects on booming technologies. My focus is to become Software Developer. I am interested in ML and AI 
+            technologies where I developed some projects. I also want to explore new/present technologies and upgrade my skills. 
+            Currently, <strong>I am looking for intern opportunities in the development/DevOps field.</strong>
+          </p>
+        </div>
+      </main>
+<!--about end-->
+<!--previouswork-section start-->
+      <aside id="previouswork-section" title=" Previous Work" class="row mt-4">
+        <h2 class="mt-4 sectionmenubar" role="heading">Previous Work Experience</h2>
+        <div class="accorsec accordion-flush" id="accordionFlushSample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                <div>
+                  <h3>Accenture Private Ltd.</h3>
+                  <h4>Software Engineer</h4>
+                  <h5>Nov 2020 - Dec 2021</h5>
+                </div>
+              </button>
+            </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushSample"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <p> <b>Worked on DevOps JAVA Applications.</b></p>
+                  <p>• Coordinated with supervisor in brainstorming the application glitches by improving the efficiency.</p>
+                  <p>• Maintained daily incident log tracking, number of incidents open, assigned, and breached.</p>
+                  <p>• Supported 7 different applications by creating the Incident Management, Problem Management, and Change
+                        Management Process for migration and software deployment.</p>
+                  <p>• Worked with the team and improved productivity by resolving Database related issues.</p>
+                  <p>• Ensured efficient communication between assignee, users, and business clients on daily work tasks.</p>
+                  <p>• Assisted Knowledge Training sessions for Team on Production and Integration Environment support.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <aside class="row mt-4">
+        <h2 class="sectionmenubar">Education</h2>
+        <div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h3>Portland State University</h3>
+              <p>Masters in Computer Science (Jan 2022 - Present)</p>
+            </li>
+            <li class="list-group-item">
+              <h3>Jawaharlal Nehru Technological University</h3>
+              <p>Bachelor of Technology (2016 - 2020)</p>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <aside class="row mt-4">
+        <h2 class="sectionmenubar">Skills</h2>
+        <div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h3>Technical Skills</h3>
+              <p>• C, Python, Java</p>
+              <p>• Mysql, Oracle</p>
+              <p>• Machine Learning, Artificial Intelligence, Deep Learning</p>
+              <p>• Coursework: DBMS, Algorithms, Web Development, Voice Assistants, Usability Engineering</p>
+            </li>
+          </ul>
+        </div>
+      </aside>
+<!--previouswork-section end -->
+<!-- project section starts-->
+      <aside id="project-section" title="Projects" class="row mt-5">
+        <h2 class="sectionmenubar">Projects</h2>
+        <div
+          id="carouselSampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                src="./images/traffic.jpg"
+                class="d-block mx-auto w-50"
+                alt="Traffic Signs Recognition"
+                height="160px"
+                width="120px"
+              />
+              <h3 class="project-title text-center mt-4">
+                <a
+                  class="text-reset text-decoration-none"
+                  href="https://github.com/SoumyaThoutam/2016BatchMajorProjects/tree/master/Team%20-%2016%20-%20Traffic%20Signs%20Recognition"
+                >
+                  <i class="bi bi-github"></i>
+                  Traffic Signs Recognition
+                </a>
+              </h3>
+              <p class="text-center mx-auto w-75">
+                Built a Deep Neural Network model that classifies traffic signs 
+                present in the image into different categories to read and understand 
+                traffic signs.CNN model used detects 43 classes by Image Classification. 
+                Based on Keras contains a 5x5 Kernel filter and 2x2 max pooling
+              </p>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <h3 class="project-title text-center mt-4">Manor</h3>
+              <p class="mx-auto w-75">
+                • Developed JAVA Web-Based Application provides the Real-Estate Business in a better way.
+                • The application consists of four modules Tenant, Seller, Buyer, and Owner.
+                • Applied a supervised learning Decision Tree algorithm.
+                • Implemented object-oriented programming practices such as inheritance to create different account types and databases.
+              </p>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselSampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselSampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          </div>
+        </aside>
+<!--project section ends-->
+<!--Contact form starts-->
+        <aside class="row mt-5" title="Contact form" id="borderforcontact">
+          <h2 class="sectionmenubar">Contact</h2>
+          <form id="sectioncontact-form">
+            <div class="row mb-3">
+              <div class="col">
+                <label for="name" class="labelform">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  placeholder="lucy mai"
+                  required
+                />
+              </div>
+              <div class="col">
+                <label for="email" class="labelform">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="lucy.mai@gmail.com"
+                  required
+                />
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="labelform">Message</label>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="4"
+                placeholder="Feel free to reach out!"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+            <button type="reset" class="btn btn-outline-primary">Reset</button>
+          </form>
+        </aside>
+<!--contact form ends-->
+<!-- footer starts -->
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top" 
+        >
+          <a href="#top" class="nav-link bounce"
+            ><button type="button" class="btn btn-primary">Back to Main menu <span class="bi bi-arrow-up-circle-fill"></span></button></a
+          >
+        </footer>
+<!--footer end -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> 
+  </body>
 </html>
