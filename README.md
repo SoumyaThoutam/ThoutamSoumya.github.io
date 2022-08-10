@@ -1,1 +1,2 @@
-# SoumyaThoutam.github.io
+The website that I have built is my personal website which highlights about me and my professional background. This website contains the sections which includes about, my previous work, skills, education, projects, and contact details. I have used HTML, CSS, and JavaScript to build this website. I have also used the CSS Framework Bootstrap. 
+To run this page download and run the index.html file in the browser.
