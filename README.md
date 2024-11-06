@@ -8,7 +8,6 @@ This is a single page website, which has different sections namely ```About Me``
 
 <p>This website is designed using HTML, CSS, JavaScript, and Bootstrap</p>
 
-<p>You can find the page live at - https://soumyathoutam.github.io//</p>
 
 ## Run the Code
 
